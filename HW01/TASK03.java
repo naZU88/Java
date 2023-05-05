@@ -8,15 +8,15 @@ package HW01;
 import java.util.Scanner;
 
 public class TASK03 {
-// метод получения числа
+
 static int scanNumber() {
     Scanner scan = new Scanner(System.in);
     int number = scan.nextInt();
     return number;
-    // scan.close(); Почему не получается закрыть Scanner???
+   
 }
 
-// метод получения числа операции
+
 static String scanOperations() {
     Scanner scan = new Scanner(System.in);
     String operations = scan.nextLine();
@@ -24,7 +24,7 @@ static String scanOperations() {
 
 }
 
-// метод получения результата
+
 static int getResult(String opr, int num1, int num2) {
     int result = 0;
     switch (opr) {

@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class TASK02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите положительное число: ");
+        System.out.print("Введите число: ");
         int input = scanner.nextInt();
         scanner.close();
         List<Integer> primes = new ArrayList<>();

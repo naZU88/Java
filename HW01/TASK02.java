@@ -4,10 +4,6 @@
  */
 package HW01;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 
 public class TASK02 {
     public static void main(String[] args) {

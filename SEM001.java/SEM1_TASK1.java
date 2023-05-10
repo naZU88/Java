@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class SEM01 {
+public class SEM1_TASK1 {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
 

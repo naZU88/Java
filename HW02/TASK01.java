@@ -11,7 +11,7 @@ import java.util.Set;
 
 /**
  * В файле содержится строка с исходными данными в такой форме:
- * {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
+ * {"name":"I vanov", "country":"Russia", "city":"Moscow", "age":"null"}
  * Требуется на её основе построить и вывести на экран новую строку, в форме SQL
  * запроса:
  * SELECT * FROM students WHERE name = "Ivanov" AND country = "Russia" AND city

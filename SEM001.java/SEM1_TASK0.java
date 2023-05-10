@@ -7,7 +7,7 @@
 
 import java.util.Scanner;
 
-public class SEM01_TASK1 {
+public class SEM1_TASK0 {
     public static void main(String[] args) {
         
         Scanner iScanner = new Scanner(System.in, "866");

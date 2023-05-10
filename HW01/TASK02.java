@@ -7,26 +7,17 @@ package HW01;
 
 public class TASK02 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите число: ");
-        int input = scanner.nextInt();
-        scanner.close();
-        List<Integer> primes = new ArrayList<>();
-
-        for (int i = 2; i <= input; i++) {
-            boolean isPrimeNumber = true;
-
+        for (int i = 1; i < 1001; i++) {
+            int count = 0;
             for (int j = 2; j < i; j++) {
-                if (i % j == 0) {
-                    isPrimeNumber = false;
-                    break;
+                if (i%j == 0 && i != j) {
+                    count++;
                 }
             }
-
-            if (isPrimeNumber) {
-                primes.add(i);
-            }
+            if (count == 0) {
+                System.out.printf(" %d", i);
+            }     
         }
-        System.out.println("Простые числа: " + primes);
+        
     }
 }
